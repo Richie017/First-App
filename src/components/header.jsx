@@ -5,8 +5,14 @@ class Header extends Component {
     super(props);
     this.state = {};
   }
+
+  styles = {
+    textAlign: "center",
+    backgroundColor: "orange",
+  };
+
   render() {
-    return <h1>Welcome!</h1>;
+    return <h1 style={this.styles}>Welcome!</h1>;
   }
 }
 
